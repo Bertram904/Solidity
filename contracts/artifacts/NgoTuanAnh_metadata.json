@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "addToX2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_b",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "m",
+						"type": "uint256"
+					}
+				],
+				"name": "inCreaseX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnTwo",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "z1",
+						"type": "int256"
+					},
+					{
+						"internalType": "bool",
+						"name": "z2",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/NgoTuanAnh.sol": "NgoTuanAnh"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/NgoTuanAnh.sol": {
+			"keccak256": "0xed74aabf165ebe96e3b3ba507bd3d91e0f8acff8621f98c2f2dc9e5cb13a05ff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bca762b01d3a0a028522d18b9917105944f88dc593a1f27261158877e67c9b69",
+				"dweb:/ipfs/QmW8Fs7rJCgWt7PZX9oe7t3FLd3ZPVQHvA3u694oeJfcNA"
+			]
+		}
+	},
+	"version": 1
+}
